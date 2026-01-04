@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Demoblaze Project Suite" verbose="1" parallel="false">
+<test name="All 25 Scenarios">
+<classes>
+<class name="tests.LoginTests"/>              <!-- TC01–TC05 -->
+<class name="tests.SignupTests"/>             <!-- TC06–TC08 -->
+<class name="tests.CartTests"/>               <!-- TC09–TC12 -->
+<class name="tests.OrderTests"/>              <!-- TC13–TC15 -->
+<class name="tests.NavigationLogoutTests"/>   <!-- TC16–TC20 -->
+<class name="tests.UiUxTests"/>               <!-- TC21–TC23 -->
+<class name="tests.AlertResponsiveTests"/>    <!-- TC24–TC25 -->
+</classes>
+</test>
+</suite>

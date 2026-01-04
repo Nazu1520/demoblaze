@@ -1,0 +1,850 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Demoblaze_Project_Suite" class="navigator-link">
+              <span class="suite-name border-passed">Demoblaze Project Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Demoblaze_Project_Suite" class="navigator-link ">
+                    <span>C:\Users\cs7\eclipse-workspace\DemoBlaze\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Demoblaze_Project_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Demoblaze_Project_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Demoblaze_Project_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Demoblaze_Project_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Demoblaze_Project_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Demoblaze_Project_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">23 methods,   23 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Demoblaze_Project_Suite" class="hide-methods passed suite-Demoblaze_Project_Suite"> (hide)</a> <!-- hide-methods passed suite-Demoblaze_Project_Suite -->
+                      <a href="#" panel-name="suite-Demoblaze_Project_Suite" class="show-methods passed suite-Demoblaze_Project_Suite"> (show)</a> <!-- show-methods passed suite-Demoblaze_Project_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Demoblaze_Project_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Demoblaze_Project_Suite" title="tests.LoginTests" class="method navigator-link" hash-for-method="TC01_verifyLoginWithValidCredentials">TC01_verifyLoginWithValidCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Demoblaze_Project_Suite" title="tests.LoginTests" class="method navigator-link" hash-for-method="TC02_verifyLoginWithIncorrectPassword">TC02_verifyLoginWithIncorrectPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Demoblaze_Project_Suite" title="tests.LoginTests" class="method navigator-link" hash-for-method="TC03_verifyLoginWithEmptyFields">TC03_verifyLoginWithEmptyFields</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Demoblaze_Project_Suite" title="tests.LoginTests" class="method navigator-link" hash-for-method="TC04_verifyLoginWithInvalidEmailFormat">TC04_verifyLoginWithInvalidEmailFormat</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Demoblaze_Project_Suite" title="tests.LoginTests" class="method navigator-link" hash-for-method="TC05_verifyPasswordFieldMasksInput">TC05_verifyPasswordFieldMasksInput</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Demoblaze_Project_Suite" title="tests.SignupTests" class="method navigator-link" hash-for-method="TC06_verifySignupWithUniqueCredentials">TC06_verifySignupWithUniqueCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Demoblaze_Project_Suite" title="tests.SignupTests" class="method navigator-link" hash-for-method="TC07_verifySignupWithExistingUsername">TC07_verifySignupWithExistingUsername</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Demoblaze_Project_Suite" title="tests.SignupTests" class="method navigator-link" hash-for-method="TC08_verifySignupWithEmptyFields">TC08_verifySignupWithEmptyFields</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Demoblaze_Project_Suite" title="tests.OrderTests" class="method navigator-link" hash-for-method="TC13_placeOrderWithValidDetails">TC13_placeOrderWithValidDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Demoblaze_Project_Suite" title="tests.OrderTests" class="method navigator-link" hash-for-method="TC14_placeOrderWithEmptyForm">TC14_placeOrderWithEmptyForm</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Demoblaze_Project_Suite" title="tests.NavigationLogoutTests" class="method navigator-link" hash-for-method="TC15_browseProductCategories">TC15_browseProductCategories</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Demoblaze_Project_Suite" title="tests.OrderTests" class="method navigator-link" hash-for-method="TC15_verifyOrderConfirmationDetails">TC15_verifyOrderConfirmationDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Demoblaze_Project_Suite" title="tests.NavigationLogoutTests" class="method navigator-link" hash-for-method="TC16_verifyCategoryNavigationLinks">TC16_verifyCategoryNavigationLinks</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Demoblaze_Project_Suite" title="tests.NavigationLogoutTests" class="method navigator-link" hash-for-method="TC17_viewProductDetails">TC17_viewProductDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Demoblaze_Project_Suite" title="tests.NavigationLogoutTests" class="method navigator-link" hash-for-method="TC18_verifyHomeNavigation">TC18_verifyHomeNavigation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Demoblaze_Project_Suite" title="tests.NavigationLogoutTests" class="method navigator-link" hash-for-method="TC19_verifyContactNavigation">TC19_verifyContactNavigation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Demoblaze_Project_Suite" title="tests.NavigationLogoutTests" class="method navigator-link" hash-for-method="TC20_verifyLoginLogout">TC20_verifyLoginLogout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Demoblaze_Project_Suite" title="tests.UiUxTests" class="method navigator-link" hash-for-method="TC21_verifyAlignmentOfProductTiles">TC21_verifyAlignmentOfProductTiles</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Demoblaze_Project_Suite" title="tests.UiUxTests" class="method navigator-link" hash-for-method="TC22_checkVisibilityOfActionButtons">TC22_checkVisibilityOfActionButtons</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Demoblaze_Project_Suite" title="tests.UiUxTests" class="method navigator-link" hash-for-method="TC23_checkFontConsistencyAcrossPages">TC23_checkFontConsistencyAcrossPages</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Demoblaze_Project_Suite" title="tests.AlertResponsiveTests" class="method navigator-link" hash-for-method="TC24_testAlertAndPopupStyling">TC24_testAlertAndPopupStyling</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Demoblaze_Project_Suite" title="tests.AlertResponsiveTests" class="method navigator-link" hash-for-method="TC25_testHorizontalScrolling">TC25_testHorizontalScrolling</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Demoblaze_Project_Suite" title="tests.CartTests" class="method navigator-link" hash-for-method="cartFunctionalityTest">cartFunctionalityTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Demoblaze_Project_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Demoblaze_Project_Suite" class="panel Demoblaze_Project_Suite">
+          <div class="suite-Demoblaze_Project_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.NavigationLogoutTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC15_browseProductCategories">
+                  </a> <!-- TC15_browseProductCategories -->
+                  <span class="method-name">TC15_browseProductCategories</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC16_verifyCategoryNavigationLinks">
+                  </a> <!-- TC16_verifyCategoryNavigationLinks -->
+                  <span class="method-name">TC16_verifyCategoryNavigationLinks</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC17_viewProductDetails">
+                  </a> <!-- TC17_viewProductDetails -->
+                  <span class="method-name">TC17_viewProductDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC18_verifyHomeNavigation">
+                  </a> <!-- TC18_verifyHomeNavigation -->
+                  <span class="method-name">TC18_verifyHomeNavigation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC19_verifyContactNavigation">
+                  </a> <!-- TC19_verifyContactNavigation -->
+                  <span class="method-name">TC19_verifyContactNavigation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC20_verifyLoginLogout">
+                  </a> <!-- TC20_verifyLoginLogout -->
+                  <span class="method-name">TC20_verifyLoginLogout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Demoblaze_Project_Suite-class-passed -->
+          <div class="suite-Demoblaze_Project_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.LoginTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC01_verifyLoginWithValidCredentials">
+                  </a> <!-- TC01_verifyLoginWithValidCredentials -->
+                  <span class="method-name">TC01_verifyLoginWithValidCredentials</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC02_verifyLoginWithIncorrectPassword">
+                  </a> <!-- TC02_verifyLoginWithIncorrectPassword -->
+                  <span class="method-name">TC02_verifyLoginWithIncorrectPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC03_verifyLoginWithEmptyFields">
+                  </a> <!-- TC03_verifyLoginWithEmptyFields -->
+                  <span class="method-name">TC03_verifyLoginWithEmptyFields</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC04_verifyLoginWithInvalidEmailFormat">
+                  </a> <!-- TC04_verifyLoginWithInvalidEmailFormat -->
+                  <span class="method-name">TC04_verifyLoginWithInvalidEmailFormat</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC05_verifyPasswordFieldMasksInput">
+                  </a> <!-- TC05_verifyPasswordFieldMasksInput -->
+                  <span class="method-name">TC05_verifyPasswordFieldMasksInput</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Demoblaze_Project_Suite-class-passed -->
+          <div class="suite-Demoblaze_Project_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.UiUxTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC21_verifyAlignmentOfProductTiles">
+                  </a> <!-- TC21_verifyAlignmentOfProductTiles -->
+                  <span class="method-name">TC21_verifyAlignmentOfProductTiles</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC22_checkVisibilityOfActionButtons">
+                  </a> <!-- TC22_checkVisibilityOfActionButtons -->
+                  <span class="method-name">TC22_checkVisibilityOfActionButtons</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC23_checkFontConsistencyAcrossPages">
+                  </a> <!-- TC23_checkFontConsistencyAcrossPages -->
+                  <span class="method-name">TC23_checkFontConsistencyAcrossPages</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Demoblaze_Project_Suite-class-passed -->
+          <div class="suite-Demoblaze_Project_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.CartTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="cartFunctionalityTest">
+                  </a> <!-- cartFunctionalityTest -->
+                  <span class="method-name">cartFunctionalityTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Demoblaze_Project_Suite-class-passed -->
+          <div class="suite-Demoblaze_Project_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.OrderTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC13_placeOrderWithValidDetails">
+                  </a> <!-- TC13_placeOrderWithValidDetails -->
+                  <span class="method-name">TC13_placeOrderWithValidDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC14_placeOrderWithEmptyForm">
+                  </a> <!-- TC14_placeOrderWithEmptyForm -->
+                  <span class="method-name">TC14_placeOrderWithEmptyForm</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC15_verifyOrderConfirmationDetails">
+                  </a> <!-- TC15_verifyOrderConfirmationDetails -->
+                  <span class="method-name">TC15_verifyOrderConfirmationDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Demoblaze_Project_Suite-class-passed -->
+          <div class="suite-Demoblaze_Project_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.SignupTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC06_verifySignupWithUniqueCredentials">
+                  </a> <!-- TC06_verifySignupWithUniqueCredentials -->
+                  <span class="method-name">TC06_verifySignupWithUniqueCredentials</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC07_verifySignupWithExistingUsername">
+                  </a> <!-- TC07_verifySignupWithExistingUsername -->
+                  <span class="method-name">TC07_verifySignupWithExistingUsername</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC08_verifySignupWithEmptyFields">
+                  </a> <!-- TC08_verifySignupWithEmptyFields -->
+                  <span class="method-name">TC08_verifySignupWithEmptyFields</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Demoblaze_Project_Suite-class-passed -->
+          <div class="suite-Demoblaze_Project_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.AlertResponsiveTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC24_testAlertAndPopupStyling">
+                  </a> <!-- TC24_testAlertAndPopupStyling -->
+                  <span class="method-name">TC24_testAlertAndPopupStyling</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC25_testHorizontalScrolling">
+                  </a> <!-- TC25_testHorizontalScrolling -->
+                  <span class="method-name">TC25_testHorizontalScrolling</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Demoblaze_Project_Suite-class-passed -->
+        </div> <!-- panel Demoblaze_Project_Suite -->
+        <div panel-name="test-xml-Demoblaze_Project_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\cs7\eclipse-workspace\DemoBlaze\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Demoblaze Project Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;All 25 Scenarios&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.LoginTests&quot;/&gt;
+      &lt;class name=&quot;tests.SignupTests&quot;/&gt;
+      &lt;class name=&quot;tests.CartTests&quot;/&gt;
+      &lt;class name=&quot;tests.OrderTests&quot;/&gt;
+      &lt;class name=&quot;tests.NavigationLogoutTests&quot;/&gt;
+      &lt;class name=&quot;tests.UiUxTests&quot;/&gt;
+      &lt;class name=&quot;tests.AlertResponsiveTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- All 25 Scenarios --&gt;
+&lt;/suite&gt; &lt;!-- Demoblaze Project Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Demoblaze_Project_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Demoblaze Project Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">All 25 Scenarios (7 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Demoblaze_Project_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Demoblaze Project Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Demoblaze_Project_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Demoblaze Project Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Demoblaze_Project_Suite');
+function tableData_Demoblaze_Project_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(23);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'cartFunctionalityTest')
+data.setCell(0, 2, 'tests.CartTests')
+data.setCell(0, 3, 10724);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'TC13_placeOrderWithValidDetails')
+data.setCell(1, 2, 'tests.OrderTests')
+data.setCell(1, 3, 3827);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'TC01_verifyLoginWithValidCredentials')
+data.setCell(2, 2, 'tests.LoginTests')
+data.setCell(2, 3, 3281);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'TC24_testAlertAndPopupStyling')
+data.setCell(3, 2, 'tests.AlertResponsiveTests')
+data.setCell(3, 3, 3117);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'TC15_verifyOrderConfirmationDetails')
+data.setCell(4, 2, 'tests.OrderTests')
+data.setCell(4, 3, 2112);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'TC06_verifySignupWithUniqueCredentials')
+data.setCell(5, 2, 'tests.SignupTests')
+data.setCell(5, 3, 1940);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'TC17_viewProductDetails')
+data.setCell(6, 2, 'tests.NavigationLogoutTests')
+data.setCell(6, 3, 1938);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'TC05_verifyPasswordFieldMasksInput')
+data.setCell(7, 2, 'tests.LoginTests')
+data.setCell(7, 3, 1938);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'TC18_verifyHomeNavigation')
+data.setCell(8, 2, 'tests.NavigationLogoutTests')
+data.setCell(8, 3, 1930);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'TC16_verifyCategoryNavigationLinks')
+data.setCell(9, 2, 'tests.NavigationLogoutTests')
+data.setCell(9, 3, 1832);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'TC15_browseProductCategories')
+data.setCell(10, 2, 'tests.NavigationLogoutTests')
+data.setCell(10, 3, 1786);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'TC02_verifyLoginWithIncorrectPassword')
+data.setCell(11, 2, 'tests.LoginTests')
+data.setCell(11, 3, 1758);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'TC04_verifyLoginWithInvalidEmailFormat')
+data.setCell(12, 2, 'tests.LoginTests')
+data.setCell(12, 3, 1610);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'TC07_verifySignupWithExistingUsername')
+data.setCell(13, 2, 'tests.SignupTests')
+data.setCell(13, 3, 1535);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'TC14_placeOrderWithEmptyForm')
+data.setCell(14, 2, 'tests.OrderTests')
+data.setCell(14, 3, 1316);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'TC08_verifySignupWithEmptyFields')
+data.setCell(15, 2, 'tests.SignupTests')
+data.setCell(15, 3, 1179);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'TC19_verifyContactNavigation')
+data.setCell(16, 2, 'tests.NavigationLogoutTests')
+data.setCell(16, 3, 1095);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'TC03_verifyLoginWithEmptyFields')
+data.setCell(17, 2, 'tests.LoginTests')
+data.setCell(17, 3, 1068);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'TC21_verifyAlignmentOfProductTiles')
+data.setCell(18, 2, 'tests.UiUxTests')
+data.setCell(18, 3, 872);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'TC25_testHorizontalScrolling')
+data.setCell(19, 2, 'tests.AlertResponsiveTests')
+data.setCell(19, 3, 484);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'TC20_verifyLoginLogout')
+data.setCell(20, 2, 'tests.NavigationLogoutTests')
+data.setCell(20, 3, 313);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'TC23_checkFontConsistencyAcrossPages')
+data.setCell(21, 2, 'tests.UiUxTests')
+data.setCell(21, 3, 191);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'TC22_checkVisibilityOfActionButtons')
+data.setCell(22, 2, 'tests.UiUxTests')
+data.setCell(22, 3, 105);
+window.suiteTableData['Demoblaze_Project_Suite']= { tableData: data, tableDiv: 'times-div-Demoblaze_Project_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 45 seconds</span>
+              <div id="times-div-Demoblaze_Project_Suite">
+              </div> <!-- times-div-Demoblaze_Project_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Demoblaze_Project_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Demoblaze Project Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Demoblaze_Project_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Demoblaze_Project_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.LoginTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpClass</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">goToLoggedOutHome</span>
+                <span class="method-start">9775 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC01_verifyLoginWithValidCredentials</span>
+                <span class="method-start">10404 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">goToLoggedOutHome</span>
+                <span class="method-start">13765 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC02_verifyLoginWithIncorrectPassword</span>
+                <span class="method-start">14252 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">goToLoggedOutHome</span>
+                <span class="method-start">16021 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC03_verifyLoginWithEmptyFields</span>
+                <span class="method-start">16207 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">goToLoggedOutHome</span>
+                <span class="method-start">17293 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC04_verifyLoginWithInvalidEmailFormat</span>
+                <span class="method-start">17450 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">goToLoggedOutHome</span>
+                <span class="method-start">19080 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC05_verifyPasswordFieldMasksInput</span>
+                <span class="method-start">20452 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">22393 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SignupTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpClass</span>
+                <span class="method-start">23143 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">goToHomeLoggedOut</span>
+                <span class="method-start">27609 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC06_verifySignupWithUniqueCredentials</span>
+                <span class="method-start">27897 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">goToHomeLoggedOut</span>
+                <span class="method-start">29856 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC07_verifySignupWithExistingUsername</span>
+                <span class="method-start">30068 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">goToHomeLoggedOut</span>
+                <span class="method-start">31616 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC08_verifySignupWithEmptyFields</span>
+                <span class="method-start">31790 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">32982 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CartTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpClass</span>
+                <span class="method-start">33474 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">setupPages</span>
+                <span class="method-start">38342 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">cartFunctionalityTest</span>
+                <span class="method-start">38350 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">49096 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.OrderTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpClass</span>
+                <span class="method-start">49587 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">setupOrder</span>
+                <span class="method-start">54367 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC13_placeOrderWithValidDetails</span>
+                <span class="method-start">59249 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupOrder</span>
+                <span class="method-start">63090 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC14_placeOrderWithEmptyForm</span>
+                <span class="method-start">72024 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupOrder</span>
+                <span class="method-start">73345 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC15_verifyOrderConfirmationDetails</span>
+                <span class="method-start">77947 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">80061 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.NavigationLogoutTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpClass</span>
+                <span class="method-start">81578 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">TC15_browseProductCategories</span>
+                <span class="method-start">86201 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC16_verifyCategoryNavigationLinks</span>
+                <span class="method-start">87994 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC17_viewProductDetails</span>
+                <span class="method-start">89828 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC18_verifyHomeNavigation</span>
+                <span class="method-start">91776 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC19_verifyContactNavigation</span>
+                <span class="method-start">93714 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC20_verifyLoginLogout</span>
+                <span class="method-start">94814 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">95135 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.UiUxTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpClass</span>
+                <span class="method-start">102021 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">TC21_verifyAlignmentOfProductTiles</span>
+                <span class="method-start">107433 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC22_checkVisibilityOfActionButtons</span>
+                <span class="method-start">108309 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC23_checkFontConsistencyAcrossPages</span>
+                <span class="method-start">108420 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">108613 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.AlertResponsiveTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpClass</span>
+                <span class="method-start">110055 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">TC24_testAlertAndPopupStyling</span>
+                <span class="method-start">115238 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC25_testHorizontalScrolling</span>
+                <span class="method-start">118357 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">118842 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

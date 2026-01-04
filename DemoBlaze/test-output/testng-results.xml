@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="23" passed="23" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-01-04T21:15:32 IST" name="Demoblaze Project Suite" finished-at="2026-01-04T21:17:32 IST" duration-ms="119307">
+    <groups>
+    </groups>
+    <test started-at="2026-01-04T21:15:32 IST" name="All 25 Scenarios" finished-at="2026-01-04T21:17:32 IST" duration-ms="119307">
+      <class name="tests.AlertResponsiveTests">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:tests.AlertResponsiveTests@561b6512]" started-at="2026-01-04T21:17:22 IST" name="setUpClass" finished-at="2026-01-04T21:17:28 IST" duration-ms="5183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="TC24_testAlertAndPopupStyling()[pri:22, instance:tests.AlertResponsiveTests@561b6512]" started-at="2026-01-04T21:17:28 IST" name="TC24_testAlertAndPopupStyling" finished-at="2026-01-04T21:17:31 IST" duration-ms="3117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC24_testAlertAndPopupStyling -->
+        <test-method signature="TC25_testHorizontalScrolling()[pri:23, instance:tests.AlertResponsiveTests@561b6512]" started-at="2026-01-04T21:17:31 IST" name="TC25_testHorizontalScrolling" finished-at="2026-01-04T21:17:31 IST" duration-ms="484" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC25_testHorizontalScrolling -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:tests.AlertResponsiveTests@561b6512]" started-at="2026-01-04T21:17:31 IST" name="tearDownClass" finished-at="2026-01-04T21:17:32 IST" duration-ms="396" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- tests.AlertResponsiveTests -->
+      <class name="tests.LoginTests">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:tests.LoginTests@385e9564]" started-at="2026-01-04T21:15:32 IST" name="setUpClass" finished-at="2026-01-04T21:15:42 IST" duration-ms="9567" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="goToLoggedOutHome()[pri:0, instance:tests.LoginTests@385e9564]" started-at="2026-01-04T21:15:42 IST" name="goToLoggedOutHome" finished-at="2026-01-04T21:15:43 IST" duration-ms="628" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToLoggedOutHome -->
+        <test-method signature="TC01_verifyLoginWithValidCredentials()[pri:1, instance:tests.LoginTests@385e9564]" started-at="2026-01-04T21:15:43 IST" name="TC01_verifyLoginWithValidCredentials" finished-at="2026-01-04T21:15:46 IST" duration-ms="3281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01_verifyLoginWithValidCredentials -->
+        <test-method is-config="true" signature="goToLoggedOutHome()[pri:0, instance:tests.LoginTests@385e9564]" started-at="2026-01-04T21:15:46 IST" name="goToLoggedOutHome" finished-at="2026-01-04T21:15:47 IST" duration-ms="487" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToLoggedOutHome -->
+        <test-method signature="TC02_verifyLoginWithIncorrectPassword()[pri:2, instance:tests.LoginTests@385e9564]" started-at="2026-01-04T21:15:47 IST" name="TC02_verifyLoginWithIncorrectPassword" finished-at="2026-01-04T21:15:48 IST" duration-ms="1758" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC02_verifyLoginWithIncorrectPassword -->
+        <test-method is-config="true" signature="goToLoggedOutHome()[pri:0, instance:tests.LoginTests@385e9564]" started-at="2026-01-04T21:15:48 IST" name="goToLoggedOutHome" finished-at="2026-01-04T21:15:49 IST" duration-ms="186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToLoggedOutHome -->
+        <test-method signature="TC03_verifyLoginWithEmptyFields()[pri:3, instance:tests.LoginTests@385e9564]" started-at="2026-01-04T21:15:49 IST" name="TC03_verifyLoginWithEmptyFields" finished-at="2026-01-04T21:15:50 IST" duration-ms="1068" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC03_verifyLoginWithEmptyFields -->
+        <test-method is-config="true" signature="goToLoggedOutHome()[pri:0, instance:tests.LoginTests@385e9564]" started-at="2026-01-04T21:15:50 IST" name="goToLoggedOutHome" finished-at="2026-01-04T21:15:50 IST" duration-ms="156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToLoggedOutHome -->
+        <test-method signature="TC04_verifyLoginWithInvalidEmailFormat()[pri:4, instance:tests.LoginTests@385e9564]" started-at="2026-01-04T21:15:50 IST" name="TC04_verifyLoginWithInvalidEmailFormat" finished-at="2026-01-04T21:15:51 IST" duration-ms="1610" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC04_verifyLoginWithInvalidEmailFormat -->
+        <test-method is-config="true" signature="goToLoggedOutHome()[pri:0, instance:tests.LoginTests@385e9564]" started-at="2026-01-04T21:15:51 IST" name="goToLoggedOutHome" finished-at="2026-01-04T21:15:53 IST" duration-ms="1372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToLoggedOutHome -->
+        <test-method signature="TC05_verifyPasswordFieldMasksInput()[pri:5, instance:tests.LoginTests@385e9564]" started-at="2026-01-04T21:15:53 IST" name="TC05_verifyPasswordFieldMasksInput" finished-at="2026-01-04T21:15:55 IST" duration-ms="1938" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC05_verifyPasswordFieldMasksInput -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:tests.LoginTests@385e9564]" started-at="2026-01-04T21:15:55 IST" name="tearDownClass" finished-at="2026-01-04T21:15:55 IST" duration-ms="749" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- tests.LoginTests -->
+      <class name="tests.NavigationLogoutTests">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:tests.NavigationLogoutTests@26b3fd41]" started-at="2026-01-04T21:16:54 IST" name="setUpClass" finished-at="2026-01-04T21:16:59 IST" duration-ms="4623" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="TC15_browseProductCategories()[pri:13, instance:tests.NavigationLogoutTests@26b3fd41]" started-at="2026-01-04T21:16:59 IST" name="TC15_browseProductCategories" finished-at="2026-01-04T21:17:00 IST" duration-ms="1786" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC15_browseProductCategories -->
+        <test-method signature="TC16_verifyCategoryNavigationLinks()[pri:14, instance:tests.NavigationLogoutTests@26b3fd41]" started-at="2026-01-04T21:17:00 IST" name="TC16_verifyCategoryNavigationLinks" finished-at="2026-01-04T21:17:02 IST" duration-ms="1832" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC16_verifyCategoryNavigationLinks -->
+        <test-method signature="TC17_viewProductDetails()[pri:15, instance:tests.NavigationLogoutTests@26b3fd41]" started-at="2026-01-04T21:17:02 IST" name="TC17_viewProductDetails" finished-at="2026-01-04T21:17:04 IST" duration-ms="1938" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC17_viewProductDetails -->
+        <test-method signature="TC18_verifyHomeNavigation()[pri:16, instance:tests.NavigationLogoutTests@26b3fd41]" started-at="2026-01-04T21:17:04 IST" name="TC18_verifyHomeNavigation" finished-at="2026-01-04T21:17:06 IST" duration-ms="1930" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC18_verifyHomeNavigation -->
+        <test-method signature="TC19_verifyContactNavigation()[pri:17, instance:tests.NavigationLogoutTests@26b3fd41]" started-at="2026-01-04T21:17:06 IST" name="TC19_verifyContactNavigation" finished-at="2026-01-04T21:17:07 IST" duration-ms="1095" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC19_verifyContactNavigation -->
+        <test-method signature="TC20_verifyLoginLogout()[pri:18, instance:tests.NavigationLogoutTests@26b3fd41]" started-at="2026-01-04T21:17:07 IST" name="TC20_verifyLoginLogout" finished-at="2026-01-04T21:17:07 IST" duration-ms="313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC20_verifyLoginLogout -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:tests.NavigationLogoutTests@26b3fd41]" started-at="2026-01-04T21:17:07 IST" name="tearDownClass" finished-at="2026-01-04T21:17:14 IST" duration-ms="6885" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- tests.NavigationLogoutTests -->
+      <class name="tests.OrderTests">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:tests.OrderTests@192c3f1e]" started-at="2026-01-04T21:16:22 IST" name="setUpClass" finished-at="2026-01-04T21:16:27 IST" duration-ms="4778" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="setupOrder()[pri:0, instance:tests.OrderTests@192c3f1e]" started-at="2026-01-04T21:16:27 IST" name="setupOrder" finished-at="2026-01-04T21:16:32 IST" duration-ms="4882" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupOrder -->
+        <test-method signature="TC13_placeOrderWithValidDetails()[pri:10, instance:tests.OrderTests@192c3f1e]" started-at="2026-01-04T21:16:32 IST" name="TC13_placeOrderWithValidDetails" finished-at="2026-01-04T21:16:35 IST" duration-ms="3827" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC13_placeOrderWithValidDetails -->
+        <test-method is-config="true" signature="setupOrder()[pri:0, instance:tests.OrderTests@192c3f1e]" started-at="2026-01-04T21:16:35 IST" name="setupOrder" finished-at="2026-01-04T21:16:44 IST" duration-ms="8931" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupOrder -->
+        <test-method signature="TC14_placeOrderWithEmptyForm()[pri:11, instance:tests.OrderTests@192c3f1e]" started-at="2026-01-04T21:16:44 IST" name="TC14_placeOrderWithEmptyForm" finished-at="2026-01-04T21:16:46 IST" duration-ms="1316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC14_placeOrderWithEmptyForm -->
+        <test-method is-config="true" signature="setupOrder()[pri:0, instance:tests.OrderTests@192c3f1e]" started-at="2026-01-04T21:16:46 IST" name="setupOrder" finished-at="2026-01-04T21:16:50 IST" duration-ms="4601" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupOrder -->
+        <test-method signature="TC15_verifyOrderConfirmationDetails()[pri:12, instance:tests.OrderTests@192c3f1e]" started-at="2026-01-04T21:16:50 IST" name="TC15_verifyOrderConfirmationDetails" finished-at="2026-01-04T21:16:52 IST" duration-ms="2112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC15_verifyOrderConfirmationDetails -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:tests.OrderTests@192c3f1e]" started-at="2026-01-04T21:16:52 IST" name="tearDownClass" finished-at="2026-01-04T21:16:54 IST" duration-ms="1516" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- tests.OrderTests -->
+      <class name="tests.UiUxTests">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:tests.UiUxTests@7494f96a]" started-at="2026-01-04T21:17:14 IST" name="setUpClass" finished-at="2026-01-04T21:17:20 IST" duration-ms="5411" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="TC21_verifyAlignmentOfProductTiles()[pri:19, instance:tests.UiUxTests@7494f96a]" started-at="2026-01-04T21:17:20 IST" name="TC21_verifyAlignmentOfProductTiles" finished-at="2026-01-04T21:17:21 IST" duration-ms="872" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC21_verifyAlignmentOfProductTiles -->
+        <test-method signature="TC22_checkVisibilityOfActionButtons()[pri:20, instance:tests.UiUxTests@7494f96a]" started-at="2026-01-04T21:17:21 IST" name="TC22_checkVisibilityOfActionButtons" finished-at="2026-01-04T21:17:21 IST" duration-ms="105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC22_checkVisibilityOfActionButtons -->
+        <test-method signature="TC23_checkFontConsistencyAcrossPages()[pri:21, instance:tests.UiUxTests@7494f96a]" started-at="2026-01-04T21:17:21 IST" name="TC23_checkFontConsistencyAcrossPages" finished-at="2026-01-04T21:17:21 IST" duration-ms="191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC23_checkFontConsistencyAcrossPages -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:tests.UiUxTests@7494f96a]" started-at="2026-01-04T21:17:21 IST" name="tearDownClass" finished-at="2026-01-04T21:17:22 IST" duration-ms="1441" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- tests.UiUxTests -->
+      <class name="tests.CartTests">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:tests.CartTests@1e178745]" started-at="2026-01-04T21:16:06 IST" name="setUpClass" finished-at="2026-01-04T21:16:11 IST" duration-ms="4868" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="setupPages()[pri:0, instance:tests.CartTests@1e178745]" started-at="2026-01-04T21:16:11 IST" name="setupPages" finished-at="2026-01-04T21:16:11 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPages -->
+        <test-method signature="cartFunctionalityTest()[pri:9, instance:tests.CartTests@1e178745]" started-at="2026-01-04T21:16:11 IST" name="cartFunctionalityTest" finished-at="2026-01-04T21:16:21 IST" duration-ms="10724" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cartFunctionalityTest -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:tests.CartTests@1e178745]" started-at="2026-01-04T21:16:21 IST" name="tearDownClass" finished-at="2026-01-04T21:16:22 IST" duration-ms="490" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- tests.CartTests -->
+      <class name="tests.SignupTests">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:tests.SignupTests@1f59a598]" started-at="2026-01-04T21:15:55 IST" name="setUpClass" finished-at="2026-01-04T21:16:00 IST" duration-ms="4465" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="goToHomeLoggedOut()[pri:0, instance:tests.SignupTests@1f59a598]" started-at="2026-01-04T21:16:00 IST" name="goToHomeLoggedOut" finished-at="2026-01-04T21:16:00 IST" duration-ms="288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomeLoggedOut -->
+        <test-method signature="TC06_verifySignupWithUniqueCredentials()[pri:6, instance:tests.SignupTests@1f59a598]" started-at="2026-01-04T21:16:00 IST" name="TC06_verifySignupWithUniqueCredentials" finished-at="2026-01-04T21:16:02 IST" duration-ms="1940" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC06_verifySignupWithUniqueCredentials -->
+        <test-method is-config="true" signature="goToHomeLoggedOut()[pri:0, instance:tests.SignupTests@1f59a598]" started-at="2026-01-04T21:16:02 IST" name="goToHomeLoggedOut" finished-at="2026-01-04T21:16:02 IST" duration-ms="212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomeLoggedOut -->
+        <test-method signature="TC07_verifySignupWithExistingUsername()[pri:7, instance:tests.SignupTests@1f59a598]" started-at="2026-01-04T21:16:02 IST" name="TC07_verifySignupWithExistingUsername" finished-at="2026-01-04T21:16:04 IST" duration-ms="1535" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC07_verifySignupWithExistingUsername -->
+        <test-method is-config="true" signature="goToHomeLoggedOut()[pri:0, instance:tests.SignupTests@1f59a598]" started-at="2026-01-04T21:16:04 IST" name="goToHomeLoggedOut" finished-at="2026-01-04T21:16:04 IST" duration-ms="174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomeLoggedOut -->
+        <test-method signature="TC08_verifySignupWithEmptyFields()[pri:8, instance:tests.SignupTests@1f59a598]" started-at="2026-01-04T21:16:04 IST" name="TC08_verifySignupWithEmptyFields" finished-at="2026-01-04T21:16:05 IST" duration-ms="1179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC08_verifySignupWithEmptyFields -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:tests.SignupTests@1f59a598]" started-at="2026-01-04T21:16:05 IST" name="tearDownClass" finished-at="2026-01-04T21:16:06 IST" duration-ms="489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- tests.SignupTests -->
+    </test> <!-- All 25 Scenarios -->
+  </suite> <!-- Demoblaze Project Suite -->
+</testng-results>

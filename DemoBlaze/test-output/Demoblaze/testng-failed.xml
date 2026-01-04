@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Demoblaze]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Auth(failed)">
+    <classes>
+      <class name="LoginTests">
+        <methods>
+          <include name="s02_loginWithIncorrectPassword"/>
+          <include name="s01_loginWithValidCredentials"/>
+          <include name="s20_logoutAfterLogin"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- LoginTests -->
+      <class name="SignupTests">
+        <methods>
+          <include name="s06_signupWithUniqueCredentials"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- SignupTests -->
+    </classes>
+  </test> <!-- Auth(failed) -->
+  <test thread-count="5" name="Shopping(failed)">
+    <classes>
+      <class name="OrderTests">
+        <methods>
+          <include name="s15_verifyOrderConfirmationPopup"/>
+          <include name="tearDown"/>
+          <include name="s14_placeOrderWithEmptyForm"/>
+          <include name="setUp"/>
+          <include name="s13_placeOrderWithValidDetails"/>
+        </methods>
+      </class> <!-- OrderTests -->
+      <class name="BrowseTests">
+        <methods>
+          <include name="s18_verifyHomeNavigation"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="s17_viewProductDetails"/>
+          <include name="s19_navigateUsingNavbarLinks"/>
+        </methods>
+      </class> <!-- BrowseTests -->
+      <class name="CartTests">
+        <methods>
+          <include name="s11_removeProductFromCart"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="s10_viewCartWithAddedProducts"/>
+          <include name="s09_addProductToCart"/>
+          <include name="s12_addMultipleProductsShowsCorrectTotal"/>
+        </methods>
+      </class> <!-- CartTests -->
+    </classes>
+  </test> <!-- Shopping(failed) -->
+  <test thread-count="5" name="UI_UX(failed)">
+    <classes>
+      <class name="UiUxTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="s21_verifyAlignmentOfProductTiles"/>
+          <include name="s22_checkVisibilityOfActionButtons"/>
+        </methods>
+      </class> <!-- UiUxTests -->
+    </classes>
+  </test> <!-- UI_UX(failed) -->
+</suite> <!-- Failed suite [Demoblaze] -->
